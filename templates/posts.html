@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Blog</title>
+</head>
+<body>
+  {{#each results}}
+  <h3><a href="/blog/{{title}}">{{title}}</a></h3>
+  <p>{{{content}}}</p>
+  <footer>
+    <span class="id">{{id}}</span>
+    <span class="timestamp">{{date}}</span>
+    <span class="tags">{{tags}}</span>
+  </footer>
+  {{/each}}
+</body>
+</html>
