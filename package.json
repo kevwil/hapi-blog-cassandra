@@ -14,11 +14,11 @@
     "node": ">=0.10.35"
   },
   "dependencies": {
-    "boom": "^2.6.1",
-    "cassandra-driver": "^1.0.2",
-    "handlebars": "~2.0.0",
-    "hapi": "~8.0.0",
-    "joi": "^5.0.2",
-    "lout": "~6.0.1"
+    "boom": "^7.3.0",
+    "cassandra-driver": "^3.6.0",
+    "handlebars": "^4.0.12",
+    "hapi": "^17.8.1",
+    "joi": "^14.3.0",
+    "lout": "^11.1.0"
   }
 }
